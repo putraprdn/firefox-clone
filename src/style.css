@@ -3,10 +3,10 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 body,
 h1,
@@ -18,20 +18,68 @@ figure,
 blockquote,
 dl,
 dd {
-  margin: 0;
+	margin: 0;
 }
 img,
 picture {
-  max-width: 100%;
-  display: block;
+	max-width: 100%;
+	display: block;
 }
 input,
 button,
 textarea,
 select {
-  font: inherit;
+	font: inherit;
+}
+
+/* 
+*------------------ Font Face */
+@font-face {
+	font-family: "Inter-Bold";
+	src: url(../assets/fonts/Inter-Bold.ttf);
+}
+@font-face {
+	font-family: "Inter-Regular";
+	src: url(../assets/fonts/Inter-Regular.ttf);
+}
+@font-face {
+	font-family: "metropolis";
+	src: url(../assets/fonts/metropolis.bold.otf);
 }
 
 /* 
 *------------------ Main CSS */
+body {
+	background-color: #fff;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	font-family: "Inter-Regular";
+}
+
+.header {
+	display: flex;
+	height: 7.8125rem;
+	align-items: center;
+	text-align: center;
+	/* column-gap: 10rem; */
+	background-color: #fff;
+}
+.header h2 {
+	flex-basis: 28%;
+}
+.header__image {
+	width: 13rem;
+}
+.header__center {
+	display: flex;
+	width: fit-content;
+	padding: 1rem 3rem;
+	margin-top: 1.5rem;
+	background-color: #ededf0;
+	font-size: 0.875rem;
+	line-height: 1.5em;
+	box-shadow: 0 16px 24px 2px rgba(29, 17, 51, 0.04),
+		0 6px 32px 4px rgba(9, 32, 77, 0.12),
+		0 8px 12px -5px rgba(29, 17, 51, 0.12);
+}
 
