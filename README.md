@@ -13,7 +13,7 @@ The original website is [here.](https://www.mozilla.org/en-US/firefox/96.0/whats
 
 _Currently in progress_
 
--   [ ] Main Content
+-   [x] Main Content
 -   [ ] Active state
 -   [ ] Small screen PC (1024px)
 -   [ ] Tablet (768px)
