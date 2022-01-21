@@ -51,8 +51,8 @@ select {
 *------------------ Main CSS */
 body {
 	background-color: #fff;
-	padding-left: 5rem;
-	padding-right: 5rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
 	font-family: "Inter-Regular";
 }
 
@@ -83,3 +83,75 @@ body {
 		0 8px 12px -5px rgba(29, 17, 51, 0.12);
 }
 
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 2rem;
+}
+.main__content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main__text-wrap {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 45%;
+	row-gap: 1.5rem;
+}
+.main__title {
+	font-family: "metropolis";
+	font-size: 3rem;
+  font-weight: 500;
+	line-height: 1em;
+}
+.main__description {
+	font-size: 1.125rem;
+	line-height: 1.7rem;
+	color: #42425a;
+}
+.main__button-wrap {
+	display: flex;
+	column-gap: 5px;
+}
+.main__button-image {
+	width: 9rem;
+	height: 2.7rem;
+}
+.main__image-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-basis: 45%;
+	padding: 4rem;
+	background-image: url(../assets/images/watercolor.22286b744dfd.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.main__image-outer {
+	width: 21.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 1rem;
+	text-align: center;
+	font-family: "metropolis";
+	font-size: 32px;
+	line-height: 2.25rem;
+	padding: 2.5rem 1rem;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 8px 12px 1px rgba(29, 17, 51, 0.04),
+		0 3px 16px 2px rgba(9, 32, 77, 0.12),
+		0 5px 10px -3px rgba(29, 17, 51, 0.12);
+}
+.main__image-outer img {
+	width: 11.25rem;
+}
+.main__bottom-text {
+	margin: 8rem 0;
+	font-size: 0.875rem;
+  color: #42425a;
+}
