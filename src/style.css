@@ -285,3 +285,9 @@ body {
 	border-radius: 4px;
 	appearance: none;
 }
+.footer__form select:focus {
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='24' height='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%230060df' stroke-width='2' d='m5 9 7 7 7-7' fill='none' fill-rule='evenodd' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"),
+		linear-gradient(180deg, #fff 0, #fff);
+	border-color: #0060df;
+	box-shadow: 0 0 0 2px rgba(0, 144, 237, 0.5);
+}
