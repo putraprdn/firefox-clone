@@ -9,13 +9,64 @@
 
 @media screen and (max-width: 1024px) {
 	html {
-		font-size: 13px;
+		font-size: 14px;
+	}
+
+	.main__title {
+		font-size: 3.5rem;
+	}
+	.main__image-outer {
+		width: 19rem;
+	}
+	.main__bottom-text {
+		font-size: 1rem;
+	}
+
+	.footer__nav {
+		column-gap: 7rem;
+		flex-wrap: wrap;
+	}
+	.footer__left-wrap {
+		flex-basis: 75%;
+	}
+	.footer__credit-inner {
+		font-size: 12px;
 	}
 }
 
 @media screen and (max-width: 768px) {
 	html {
 		font-size: 12px;
+	}
+
+	.footer__nav {
+		column-gap: 15rem;
+	}
+	.footer__nav-title {
+		font-size: inherit;
+	}
+	.footer__nav-wrap {
+		font-size: 18px;
+	}
+	.footer__nav-title {
+		font-size: inherit;
+	}
+	.footer__privacy {
+		flex-direction: column;
+		row-gap: 2rem;
+	}
+	.footer__left-wrap {
+		flex-basis: 70%;
+	}
+	.footer__left-wrap ul {
+		flex-wrap: wrap;
+	}
+	.footer__right-wrap {
+		flex-basis: 25%;
+		font-size: 13px;
+	}
+	.footer__right-wrap a {
+		font-size: inherit;
 	}
 }
 
